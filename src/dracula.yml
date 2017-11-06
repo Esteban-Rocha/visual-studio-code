@@ -54,7 +54,7 @@ colors:
   terminal.ansiBrightBlue: *PURPLE
   terminal.ansiBrightMagenta: *PINK
   terminal.ansiBrightCyan: *CYAN
-  terminal.ansiBrightWhite: *COLOR7
+  terminal.ansiBrightWhite: *WHITE
   terminal.ansiBlack: *COLOR8
   terminal.ansiRed: *COLOR9
   terminal.ansiGreen: *COLOR10
@@ -743,6 +743,7 @@ tokenColors:
     - punctuation.section.embedded.end
     - punctuation.section.embedded.end source.php  # PHP edge case
     - punctuation.section.embedded.end source.ruby # Issue with ruby's tmLanguage
+    - punctuation.definition.variable.makefile
     settings:
       foreground: *PINK
 
